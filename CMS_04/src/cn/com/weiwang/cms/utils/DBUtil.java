@@ -21,7 +21,7 @@ public static Connection getConn(){
 		String url="jdbc:mysql://localhost/cms";
 		Connection conn=null;
 		try {
-			conn = DriverManager.getConnection(url, "root", "zxn");
+			conn = DriverManager.getConnection(url, "root", "root");
 			conn.setAutoCommit(false);//表示关闭事务自动提交
 		} catch (SQLException e) {
 			e.printStackTrace();
