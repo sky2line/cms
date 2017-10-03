@@ -17,6 +17,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 function reloadcheckcode(img){
 	img.src = "images/checkcode.jpg?"+Math.random();
 }
+if(window.parent != window){
+	window.parent.location = window.location;
+}
 </script>
 </head>
 <body>

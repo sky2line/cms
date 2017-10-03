@@ -70,4 +70,14 @@
     <servlet-name>SearchArticlesServlet</servlet-name>
     <url-pattern>/backend/SearchArticlesServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>AddArticleServlet</display-name>
+    <servlet-name>AddArticleServlet</servlet-name>
+    <servlet-class>cn.com.weiwang.cms.backend.servlet.AddArticleServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AddArticleServlet</servlet-name>
+    <url-pattern>/backend/AddArticleServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
